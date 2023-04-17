@@ -758,7 +758,7 @@ section {
   border-radius: 50px;
   z-index: 1;
   top: 10px;
-  left: 5px;
+  left: -1px;
   transition: 0.3s;
 }
 
