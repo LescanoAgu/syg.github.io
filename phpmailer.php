@@ -1,13 +1,15 @@
 <?php
 
-if($_SERVER['REQUEST_METHOD'] != 'POST'){
+if ($_SERVER['REQUEST_METHOD'] != 'POST'){
 header("Location: index.html");
 }
 
 require 'phpmailer/PHPMailer.php';
 require 'phpmailer/Exception.php';
+require 'phpmailer/SMTP.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
 $name = $_POST['name'];
 $email = $_POST['email'];

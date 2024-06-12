@@ -215,6 +215,7 @@
         "permitir",
         "pero",
         "personalizada",
+        "phpmailer",
         "pilares",
         "pileta",
         "planos",
@@ -302,5 +303,6 @@
         "Viamonte",
         "Vivienda",
         "XOAUTH"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

@@ -37,7 +37,6 @@ class Exception extends \Exception
     {
         return '<strong>' . htmlspecialchars($this->getMessage(), ENT_COMPAT | ENT_HTML401) . "</strong><br />\n";
     }
+
+    
 }
-
-
-
